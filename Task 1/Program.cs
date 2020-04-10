@@ -6,7 +6,15 @@ namespace Task_1
     {
         private void Use()
         {
-            
+            string menuInfo = "A - Создание документа\nB - Редактирование документа\nC - Открытие документа\nВыход - Для выхода из программы.";
+            Console.WriteLine(menuInfo);
+            string cmd = string.Empty;
+            while(cmd != "Выход")
+            {
+                Console.Write("Ввод: ");
+                cmd = Console.ReadLine();
+                
+            }
         }
         private static void Register(string key)
         {
