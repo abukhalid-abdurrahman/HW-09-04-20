@@ -7,7 +7,6 @@ namespace  Task_1
         public override void SaveDocument()
         {
             Console.WriteLine("Документ сохранен в новом формате");
-            base.SaveDocument();
         }
     }
 }
