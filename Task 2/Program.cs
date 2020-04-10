@@ -6,7 +6,11 @@ namespace Task_2
     {
         static void Main(string[] args)
         {
-            
+            Player player = new Player();
+            player.Play();
+            player.Pause();
+            player.Record();
+            player.Stop();
         }
     }
 }
